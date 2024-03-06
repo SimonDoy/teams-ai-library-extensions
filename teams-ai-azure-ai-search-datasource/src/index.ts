@@ -1,1 +1,1 @@
-export * from './cognitivesearchdatasource';
+export * from './azureaisearchdatasource';

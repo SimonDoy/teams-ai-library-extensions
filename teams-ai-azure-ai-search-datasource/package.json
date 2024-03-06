@@ -22,7 +22,7 @@
     },
     "dependencies": {
         "@azure/openai": "^1.0.0-beta.10",
-        "@microsoft/teams-ai": "~1.0.1",
+        "@microsoft/teams-ai": "^1.1.1",
         "botbuilder": "^4.21.3",
         "replace": "~1.2.0",
         "restify": "~11.1.0"
