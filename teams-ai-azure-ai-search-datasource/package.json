@@ -1,0 +1,42 @@
+{
+    "name": "teams-ai-azure-ai-search-datasource",
+    "version": "1.0.0",
+    "description": "An extension for the Teams AI Library to be able to consume Azure AI Search content with AI.",
+    "main": "lib/index.js",
+    "types": "./lib/index.d.ts",
+    "files": [
+        "lib/",
+        "src/",
+        "README.md"
+    ],
+    "scripts": {
+        "develop": "webpack-dev-server --mode development",
+        "build": "webpack --mode production",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Simon Doy (iThink 365)",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com"
+    },
+    "dependencies": {
+        "@azure/openai": "^1.0.0-beta.10",
+        "@microsoft/teams-ai": "~1.0.1",
+        "botbuilder": "^4.21.3",
+        "replace": "~1.2.0",
+        "restify": "~11.1.0"
+    },
+    "devDependencies": {
+        "@types/jsonwebtoken": "^9.0.5",
+        "@types/restify": "8.5.12",
+        "nodemon": "~1.19.4",
+        "shx": "^0.3.4",
+        "ts-loader": "^9.5.1",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.3.3",
+        "webpack": "^5.90.3",
+        "webpack-cli": "^5.1.4",
+        "webpack-dev-server": "^5.0.2"
+    }
+}
