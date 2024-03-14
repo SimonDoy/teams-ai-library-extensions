@@ -2,7 +2,7 @@
     "name": "teams-ai-azure-ai-search-datasource",
     "version": "1.0.0",
     "description": "An extension for the Teams AI Library to be able to consume Azure AI Search content with AI.",
-    "main": "lib/index.js",
+    "main": "./lib/index.js",
     "types": "./lib/index.d.ts",
     "files": [
         "lib/",
@@ -12,7 +12,8 @@
     "scripts": {
         "develop": "webpack-dev-server --mode development",
         "build": "webpack --mode production",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "push": "npm push"
     },
     "author": "Simon Doy (iThink 365)",
     "license": "MIT",
