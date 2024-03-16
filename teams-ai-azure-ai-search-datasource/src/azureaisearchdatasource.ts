@@ -12,11 +12,10 @@ export interface AzureAISearchDataSourceOptions {
 }
 
 export class AzureAISearchDataSource implements DataSource {
-    readonly name: string;
+    readonly  name: string;
     readonly options: AzureAISearchDataSourceOptions
     
-
-    public constructor(name: string, options: AzureAISearchDataSourceOptions) {
+    constructor(name: string, options: AzureAISearchDataSourceOptions) {
         this.name = name;
         this.options = options;
     }

@@ -1,17 +1,19 @@
 {
     "name": "teams-ai-azure-ai-search-datasource",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "An extension for the Teams AI Library to be able to consume Azure AI Search content with AI.",
     "main": "./lib/index.js",
+    "module": "./lib/index.js",
     "types": "./lib/index.d.ts",
     "files": [
         "lib/",
         "src/",
+        "types/",
         "README.md"
     ],
     "scripts": {
         "develop": "webpack-dev-server --mode development",
-        "build": "webpack --mode production",
+        "build": "tsc --build ",
         "test": "echo \"Error: no test specified\" && exit 1",
         "push": "npm push"
     },
@@ -35,9 +37,6 @@
         "shx": "^0.3.4",
         "ts-loader": "^9.5.1",
         "ts-node": "^10.9.2",
-        "typescript": "^5.3.3",
-        "webpack": "^5.90.3",
-        "webpack-cli": "^5.1.4",
-        "webpack-dev-server": "^5.0.2"
+        "typescript": "^5.3.3"
     }
 }
