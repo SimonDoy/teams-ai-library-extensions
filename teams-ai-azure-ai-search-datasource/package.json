@@ -1,5 +1,5 @@
 {
-    "name": "teams-ai-azure-ai-search-datasource",
+    "name": "@simondoy/teams-ai-azure-ai-search-datasource",
     "version": "1.0.1",
     "description": "An extension for the Teams AI Library to be able to consume Azure AI Search content with AI.",
     "main": "./lib/index.js",
@@ -21,7 +21,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com"
+        "url": "https://github.com/SimonDoy/teams-ai-library.git"
     },
     "dependencies": {
         "@azure/openai": "^1.0.0-beta.10",
