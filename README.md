@@ -5,11 +5,11 @@ This library is provided to you as seen and to help you get more from the Teams 
 
 # Components
 Currently the components that are available are:
-- Teams AI Search Data Source.
+- Azure AI Search Data Source.
 
-## Teams AI Azure AI Search Data Source
+## Azure AI Search Data Source
 
-This component implements the Teams AI Library Data Source interface and provides an implementation to be able to use Azure AI Search with Teams AI Library.
+This component implements the Teams AI Library Data Source interface and provides an implementation to use Azure AI Search with Teams AI Library.
 
 ### Usage
 
