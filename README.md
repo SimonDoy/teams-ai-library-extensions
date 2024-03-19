@@ -1,7 +1,9 @@
 # Introduction
 
-Welcome to a Teams AI Library Extension project by Simon Doy (iThink 365).
-This library is provided to you as seen and to help you get more from the Teams AI Library.
+Welcome to a Microsoft Teams AI Library Extension project by Simon Doy (iThink 365).
+This library is provided to you as seen and to help you get more from the [Teams AI Library](https://learn.microsoft.com/microsoftteams/platform/bots/how-to/teams%20conversational%20ai/teams-conversation-ai-overview).
+
+I recommend that you use the [Teams Toolkit for Visual Studio Code](https://learn.microsoft.com/microsoftteams/platform/toolkit/teams-toolkit-fundamentals) to build your Microsoft Teams applications.
 
 # Components
 Currently the components that are available are:
